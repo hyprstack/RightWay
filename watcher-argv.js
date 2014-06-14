@@ -1,5 +1,5 @@
-//This file takes the file to watch as a command-line argument. This will be relevant when we initiate the code; We have to define
-//the target file on the command-line.
+//This file takes the file to watch as a command-line argument. This will be relevant when we initiate the code; 
+//We have to define the target file on the command-line. http://nodejs.org/api/process.html#process_process_argv
 
 const
 	fs = require ('fs'),
