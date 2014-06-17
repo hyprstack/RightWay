@@ -16,7 +16,7 @@ const
 
 		//send the first chunk immediately
 		connection.write(
-			'{"type":"changed", "file":"targ'
+			'{"type":"changed", "file":"targ' 
 			);
 
 		//after one second delay, send the other chunk
@@ -25,7 +25,7 @@ const
 		}, 1000);
 
 		//clear timer when the connection ends
-		connnection.on('end', function(){
+		connection.on('end', function(){
 			clearTimeout(timer);
 			console.log('Subscriber disconnected');
 		});
