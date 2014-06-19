@@ -28,6 +28,6 @@ const
 	});
 
 	//listen to TCP port 5432
-	publisher.bind('tcp://*5432', function (err){
+	publisher.bind('tcp://*:5432', function (err){
 		console.log('Listening for zmq subscribers...');
 	});
