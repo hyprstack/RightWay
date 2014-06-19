@@ -15,7 +15,7 @@ const
 	subscriber = zmq.socket('sub');
 
 	//subscibe to all messages
-	subscriber.subscibe("");
+	subscriber.subsrcibe("");
 
 	//handle messages from publisher
 	subscriber.on("message", function(data){
