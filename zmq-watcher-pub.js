@@ -22,7 +22,7 @@ const
 		//send message to any subscribers
 		publisher.send(JSON.stringify({
 			type: 'changed',
-			file: filename;
+			file: filename,
 			timestamp: new Date()
 		}));
 	});
