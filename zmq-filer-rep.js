@@ -19,6 +19,8 @@
 //Finally we listen for SIGINT event on the Node process. This Unix signal indicates that the process has received an interrupt
 //signal from the user - typically invoked be pressing Ctrl-C in the terminal.
 
+//Again the book suggests using "date.now()" for the responder object and I changed it to "new Date()"
+
 'use strict';
 const
 	fs = require('fs'),
