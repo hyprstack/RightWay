@@ -27,4 +27,4 @@
 
 //When you describe your dependecies in a package.json file, npm can install them all for you.
 //This is most useful when distribuiting your module, or when collaborators work on the same code base.
-//To install all of the dependecies for the current project, just run npm intall with no additional arguments.
+//To install all of the dependecies for the current project, just run npm intall with no additional arguments .
