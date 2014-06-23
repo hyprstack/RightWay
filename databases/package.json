@@ -1,0 +1,11 @@
+//This is an example package file that describes aspects of the projects and its dependencies. This particular example
+//includes: the project's name, version, short description, and author.
+//for your projects, rather than create a package.json file by hand, you can use 'npm init'. This will
+//prompt you for all the important information
+
+{
+	"name": "book-tools",
+	"version": "0.1.0",
+	"description": "Tools for creating an ebook database.",
+	"author": "Mario Mendes <you@yoursite.com> (http://yoursite.com/path)"
+}
