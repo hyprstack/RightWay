@@ -9,3 +9,22 @@
 	"description": "Tools for creating an ebook database.",
 	"author": "Mario Mendes <you@yoursite.com> (http://yoursite.com/path)"
 }
+
+
+//When you install a module through npm, you have the choice of saving it as a dependency in the 'package.json'.
+//You do this with the --save flag. Run the following command from your project directory:
+
+//npm install --save request
+
+//This will install the request module and record it as a dependency in your 'package.json'. If you take a look at 
+//your 'package.json' file again, you'll see that there's now a dependencies section that looks like this:
+
+/*
+	"dependecies" : {
+		"request" : ~2.26.0"
+	}
+*/
+
+//When you describe your dependecies in a package.json file, npm can install them all for you.
+//This is most useful when distribuiting your module, or when collaborators work on the same code base.
+//To install all of the dependecies for the current project, just run npm intall with no additional arguments.
