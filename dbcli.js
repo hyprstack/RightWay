@@ -1,5 +1,5 @@
 //working with couchDB
-//making RESTful requests
+//making REST ful requests
 
 #!/usr/bin/env node --harmony
 const
